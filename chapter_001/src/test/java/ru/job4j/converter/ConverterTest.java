@@ -13,28 +13,28 @@ public class ConverterTest {
 
     public void when60RubleToDollarThen1() {
         Converter converter = new Converter();
-        int result = converter.RubleToDollar(60);
+        int result = converter.rubleToDollar(60);
         assertThat(result, is(1));
     }
 
     @Test
        public void when70RubleToEuroThen1() {
         Converter converter = new Converter();
-        int result = converter.RubleToEuro(70);
+        int result = converter.rubleToEuro(70);
         assertThat(result, is(1));
     }
     @Test
 
     public void whenTwoDollarTo60RubleThen120() {
         Converter converter = new Converter();
-        int result = converter.DollarToRuble(2);
+        int result = converter.dollarToRuble(2);
         assertThat(result, is(120));
     }
     @Test
 
     public void whenEuroTo70RubleThen70() {
         Converter converter = new Converter();
-        int result = converter.EuroToRuble(1);
+        int result = converter.euroToRuble(1);
         assertThat(result, is(70));
     }
 }

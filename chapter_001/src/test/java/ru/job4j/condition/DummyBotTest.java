@@ -13,7 +13,7 @@ public class DummyBotTest {
     @Test
     public void whenGreetBot() {
         DummyBot bot = new DummyBot();
-        assertThat(bot.answer("Привет, Бот."),is("Привет, умник."));
+        assertThat(bot.answer("Привет, Бот."), is("Привет, умник."));
     }
 
     @Test
